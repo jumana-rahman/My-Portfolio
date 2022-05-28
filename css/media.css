@@ -1,0 +1,517 @@
+ /*Extra Small devices (landscape phones, 375px and up) */
+@media (max-width: 575.98px) {
+    /* Navbar Start */
+    .navbar-toggler i {
+        color: #fff;
+        font-size: 20px;
+    }
+    .navbar-toggler:focus {
+        outline: 0;
+        box-shadow: 0 0 0;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 14px;
+        text-align: center;
+    }
+    /* Navbar End */
+
+    /* Banner Start */
+    .banner-overlay {
+        padding: 160px 0px;
+    }
+    .banner-text h4 {
+        font-size: 24px;
+        padding-bottom: 11px;
+    }
+    .banner-text h2 {
+        font-size: 28px;
+    }
+    .banner-text p {
+        padding-top: 11px;
+        font-size: 13px;
+    }
+    .banner-text a {
+        font-size: 12px;
+        padding: 4px 11px;
+    }
+    /* Banner End */
+
+    /* About Start */
+    #about {
+        padding: 50px 0px;
+    }
+    .heading h2 {
+        font-size: 23px;
+    }
+    .heading h2::after {
+        width: 90px;
+        top: 30px;
+        left: 50%;
+    }
+    .heading p {
+        font-size: 13px;
+        line-height: 17px;
+        padding: 30px 10px 0px;
+    }
+    .about-img a {
+        font-size: 12px;
+        padding-left: 5px;
+    }
+    .about-content {
+        margin-left: 14px;
+    }
+    .about-content h4 {
+        font-size: 18px;
+        padding-bottom: 12px;
+    }
+    .about-content ul li {
+        font-size: 13px;
+        padding-bottom: 5px;
+    }
+    .skills {
+        padding-bottom: 3px;
+    }
+    .skills span {
+        font-size: 12px;
+    }
+    .progress {
+        height: 10px;
+    }
+    /* About End */
+
+    /* Service Start */
+    #service {
+        padding: 50px 0px;
+    }
+    #service .row {
+        margin-top: 0 !important;
+    }
+    .service-content i {
+        font-size: 38px;
+    }
+    .service-content h3 {
+        padding: 14px 0px;
+        font-size: 28px;
+    }
+    .service-content h3::after {
+        top: 52px;
+        left: 50%;
+        width: 90px;
+        transform: translate(-50%, 50%);
+    }
+    .service-content p {
+        font-size: 13px;
+        padding-top: 27px;
+        line-height: 18px;
+    }
+    /* Service End */
+
+    /* Portfolio Start */
+    #portfolio {
+        padding: 50px 0px;
+    }
+    .portfolio-btn button {
+        padding: 4px 14px;
+        font-size: 13px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .card {
+        margin: 20px 25px;
+    }
+    .portfolio-button a {
+        padding: 7px 22px;
+        font-size: 13px;
+    }
+    /* Portfolio End */
+
+    /* Contact Start */
+    #contact {
+        padding: 50px 0px;
+    }
+    #contact .row {
+        margin-top: 0 !important;
+    }
+    .contact-design {
+        padding-top: 34px;
+    }
+    .contact-text {
+        text-align: center;
+    }
+    .contact-text p {
+        font-size: 14px;
+    }
+    .contact-text p::before {
+        left: 20px;
+        transform: translate(50%, -50%);
+    }
+    .contact-info {
+        margin-left: 96px;
+    }
+    .contact-info i {
+        font-size: 25px;
+    }
+    .contact-content h6 {
+        font-size: 14px;
+    }
+    .contact-content a {
+        font-size: 12px;
+    }
+    .contact-design {
+        border-right: 0 !important;
+    }
+    .find-me {
+        margin-left: 100px;
+    }
+    .find-me h6 {
+        font-size: 14px;
+        padding-bottom: 13px;
+    }
+    .find-me ul li {
+        padding-bottom: 7px;
+    }
+    .find-me ul li a {
+        font-size: 12px;
+    }
+    .find-me ul li a i {
+        font-size: 13px;
+    }
+    .contact-form {
+        margin-left: 77px;
+    }
+    .form-group input {
+        padding: 4px 46px 4px 29px;
+        text-align: center;
+    }
+    .form-group textarea {
+        padding: 4px 36px 4px 29px;
+        text-align: center;
+    }
+    .form-btn button {
+        font-size: 12px;
+        margin-left: 45px;
+    }
+    .back-to-top {
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+    }
+    /* Contact End */
+
+    /* Footer Start */
+    #footer {
+        padding: 20px 0px;
+    }
+    .footer_text {
+        font-size: 11px;
+    }
+    /* Footer End */
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* Navbar Start */
+    .navbar-toggler i {
+        color: #fff;
+        font-size: 20px;
+    }
+    .navbar-toggler:focus {
+        outline: 0;
+        box-shadow: 0 0 0;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 14px;
+        text-align: center;
+    }
+    /* Navbar End */
+
+    /* Banner Start */
+    .banner-overlay {
+        padding: 160px 0px;
+    }
+    .banner-text h4 {
+        font-size: 27px;
+        padding-bottom: 12px;
+    }
+    .banner-text h2 {
+        font-size: 30px;
+    }
+    .banner-text p {
+        padding-top: 11px;
+        font-size: 14px;
+    }
+    .banner-text a {
+        font-size: 13px;
+        padding: 6px 13px;
+    }
+    /* Banner End */
+
+    /* About Start */
+    #about {
+        padding: 50px 0px;
+    }
+    .heading h2 {
+        font-size: 23px;
+    }
+    .heading h2::after {
+        width: 90px;
+        top: 30px;
+        left: 50%;
+    }
+    .heading p {
+        font-size: 14px;
+        line-height: 17px;
+        padding: 30px 10px 0px;
+    }
+    .about-img a {
+        font-size: 12px;
+        padding-left: 5px;
+    }
+    .about-content {
+        margin-left: 14px;
+    }
+    .about-content h4 {
+        font-size: 18px;
+        padding-bottom: 12px;
+    }
+    .about-content ul li {
+        font-size: 14px;
+        padding-bottom: 5px;
+    }
+    .skills {
+        padding-bottom: 3px;
+    }
+    .skills span {
+        font-size: 12px;
+    }
+    .progress {
+        height: 10px;
+    }
+    /* About End */
+
+    /* Service Start */
+    #service {
+        padding: 50px 0px;
+    }
+    #service .row {
+        margin-top: 0 !important;
+    }
+    .service-content i {
+        font-size: 38px;
+    }
+    .service-content h3 {
+        padding: 14px 0px;
+        font-size: 22px;
+    }
+    .service-content h3::after {
+        top: 52px;
+        left: 50%;
+        width: 90px;
+        transform: translate(-50%, 50%);
+    }
+    .service-content p {
+        font-size: 11px;
+        padding-top: 27px;
+        line-height: 18px;
+    }
+    /* Service End */
+
+    /* Portfolio Start */
+    #portfolio {
+        padding: 50px 0px;
+    }
+    .portfolio-btn button {
+        padding: 4px 14px;
+        font-size: 14px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+    .card {
+        margin: 20px 106px;
+    }
+    .portfolio-button a {
+        padding: 9px 24px;
+        font-size: 15px;
+    }
+    /* Portfolio End */
+
+    /* Contact Start */
+    #contact {
+        padding: 50px 0px;
+    }
+    #contact .row {
+        margin-top: 0 !important;
+    }
+    .contact-design {
+        padding-top: 34px;
+    }
+    .contact-text {
+        text-align: center;
+    }
+    .contact-text p {
+        font-size: 15px;
+    }
+    .contact-text p::before {
+        left: 99px;
+        transform: translate(50%, -50%);
+    }
+    .contact-info {
+        margin-left: 168px;
+    }
+    .contact-info i {
+        font-size: 25px;
+    }
+    .contact-content h6 {
+        font-size: 14px;
+    }
+    .contact-content a {
+        font-size: 12px;
+    }
+    .contact-design {
+        border-right: 0 !important;
+    }
+    .find-me {
+        margin-left: 197px;
+    }
+    .find-me h6 {
+        font-size: 14px;
+        padding-bottom: 13px;
+    }
+    .find-me ul li {
+        padding-bottom: 7px;
+    }
+    .find-me ul li a {
+        font-size: 12px;
+    }
+    .find-me ul li a i {
+        font-size: 13px;
+    }
+    .contact-form {
+        margin-left: 103px;
+    }
+    .form-group input {
+        padding: 4px 114px 4px 113px;
+        text-align: center;
+    }
+    .form-group textarea {
+        padding: 4px 114px 4px 102px;
+        text-align: center;
+    }
+    .form-btn button {
+        font-size: 13px;
+        margin-left: 111px;
+    }
+    /* Contact End */
+
+    /* Footer Start */
+    #footer {
+        padding: 20px 0px;
+    }
+    .footer_text {
+        font-size: 11px;
+    }
+    .back-to-top {
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+    }
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Navbar Start */
+    .navbar-toggler i {
+        color: #fff;
+        font-size: 20px;
+    }
+    .navbar-toggler:focus {
+        outline: 0;
+        box-shadow: 0 0 0;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 15px;
+        text-align: center;
+    }
+    /* Navbar End */
+
+    /* Portfolio Start */
+    .card {
+        margin: 30px 18px;
+    }
+    /* Portfolio End */
+
+    /* Contact Part */
+    .contact-design {
+        border-right: 0px solid rgb(40, 20, 40);
+        padding-bottom: 55px;
+    }
+    .contact-text {
+        margin-left: 77px;
+    }
+    .contact-info {
+        margin-left: 104px;
+    }
+    .find-me {
+        margin-left: 120px;
+        margin-top: 5px;
+    }
+    .contact-form {
+        margin-left: 95px;
+    }
+    .form-group input {
+        padding: 4px 170px 4px 239px;
+    }
+    .form-group textarea {
+        padding: 4px 170px 4px 220px;
+    }
+    .form-btn button {
+        margin-left: 210px;
+    }
+    /* Contact End */
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* Banner Start */
+    .heading h2::after {
+        left: 328px;
+    }
+    /* Banner End */
+
+    /* Service Start */
+    .service-content h3 {
+        font-size: 27px;
+    }
+    .service-content h3::after {
+        left: 78px;
+    }
+    /* Service End */
+
+    /* Portfolio Start */
+    .card {
+        margin: 30px 2px;
+        padding: 20px 12px;
+    }
+    /* Portfolio End */
+
+    /* Contact Start */
+    .contact-text p {
+        font-size: 14px;
+    }
+    .find-me {
+        margin-left: 42px;
+    }
+    .contact-form {
+        margin-left: 35px;
+    }
+    .form-group input {
+        padding: 4px 281px 4px 29px;
+    }
+    .form-group textarea {
+        padding: 4px 271px 4px 29px;
+    }
+    .form-btn button {
+        margin-left: 272px;
+    }
+    /* Contact End */
+}
