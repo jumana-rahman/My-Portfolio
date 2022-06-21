@@ -117,7 +117,48 @@
         margin-bottom: 10px;
     }
     .card {
-        margin: 20px 25px;
+        height: 88%;
+        margin: 7% 10%;
+        padding: 4% 4.5%;
+        max-width: 100%;
+    }
+    .portfolio-img {
+        width: 100%;
+        height: 100%;
+        top: 9%;
+        left: 1%;
+    }
+    .portfolio-content {
+        margin-top: -66px;
+        padding: 12px 15px;
+    }
+    .portfolio-content h2 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .portfolio-content p {
+        padding-top: 6px;
+        font-size: 12px;
+    }
+    .portfolio-hover i {
+        top: -52px;
+        left: 92%;
+        transform: translate(-50%, 50%);
+    }
+    .card:hover {
+        height: 78%;
+    }
+    .card:hover .portfolio-img{
+        width: 115%;
+        top: -60px;
+        left: -7.5%;
+        transition-delay: .3s;
+    }
+    .card:hover .portfolio-hover i{
+        font-size: 18px;
+        top: -52px;
+        left: 92%;
+        transform: translate(-50%, 50%);
     }
     .portfolio-button a {
         padding: 7px 22px;
@@ -134,16 +175,18 @@
     }
     .contact-design {
         padding-top: 34px;
+        padding-left: 3%;
     }
     .contact-text {
         text-align: center;
+        padding-left: 3%;
     }
     .contact-text p {
         font-size: 14px;
     }
     .contact-text p::before {
-        left: 20px;
-        transform: translate(50%, -50%);
+        left: 4%;
+        transform: translateY(50%);
     }
     .contact-info {
         margin-left: 96px;
@@ -177,14 +220,14 @@
         font-size: 13px;
     }
     .contact-form {
-        margin-left: 77px;
+        margin-left: 20%;
     }
     .form-group input {
         padding: 4px 46px 4px 29px;
         text-align: center;
     }
     .form-group textarea {
-        padding: 4px 36px 4px 29px;
+        padding: 4px 30px 4px 29px;
         text-align: center;
     }
     .form-btn button {
